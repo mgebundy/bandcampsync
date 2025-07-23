@@ -37,4 +37,5 @@ jobs:
           build-args: |
             IMAGE_NAME=${{ env.IMAGE_NAME }}
             REPOSITORY=${{ github.repository }}
+            VERSION=${{ github.sha }}
             
