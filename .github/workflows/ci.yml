@@ -4,9 +4,7 @@ env:
   IMAGE_NAME: bandcampsync
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   containerise:
